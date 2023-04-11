@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+#nav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+#nav h4{
+    padding-left: 50px;
+    padding-top: 25px;
+    
+}
+
+#midnav a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: #000;
+    font-weight: 600;
+    font-size: 11px;
+    opacity: .2;
+    
+}
+
+#midnav a:nth-child(1){
+    opacity: 1;
+}
+
+#rightnav{
+    position: relative;
+    right: 0%;
+    top: -15px;
+    width: 70px;
+    height: 70px;
+    
+    
+    background-color: rgb(190, 142, 79);
+}
+.pp{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    padding: 50px;
+    font-size: 12.5px;
+}
+#prev{
+    top: 50%;
+    transform: translate(0%,-50%);
+}
+#next{
+    
+    position: absolute;
+    top: 50%;
+    transform: translate(0%,-50%);
+    right: 0%;
+    
+}
+#middiv{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 70%;
+    width: 80%;
+
+}
+
+.col{
+    
+    height: 100%;
+    width: 24%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#c1r1{
+    background-image: url(https://images.unsplash.com/photo-1523049673857-eb18f1d7b578?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1975&q=80);
+    width: 100%;
+    height: 49%;
+    background-position: center;
+    background-size: cover;
+}
+
+#textc1{
+    position: relative;
+    color: #fff;
+    top: 20px;
+    left: 5%;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#textc1 h3{
+    font-size: 20px;
+    margin-bottom: 1px;
+    
+}
+
+#c1r2{
+    background-image: url(https://images.unsplash.com/photo-1586788224331-947f68671cf1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    width: 100%;
+    height: 49%;
+    background-position: bottom;
+    background-size: cover;
+}
+
+#c2r1{
+    background-image: url(https://images.unsplash.com/photo-1621409443141-46c42dc0afb5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+    width: 100%;
+    height: 49%;
+    background-position: top;
+    background-size: cover;
+}
+
+#c2r2{
+    background-color: #F3BACE;
+    width: 100%;
+    height: 49%;
+    
+}
+
+#textc2{
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+    position: relative;
+    text-align: left;
+}
+#textc2 h3{
+    margin-bottom: 10px;
+}
+
+#c3{
+    background-image: url(https://images.unsplash.com/photo-1557800634-7bf3c7305596?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1965&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#textc3{
+    position: relative;
+    color: #fff;
+    top: 20px;
+    left: 5%;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#textc3 h3{
+    font-size: 20px;
+    margin-bottom: 1px;
+    
+}
+
+
+#c4r1{
+    background-color: #fe8802da;
+    width: 100%;
+    height: 49%;
+}
+
+#c4r2{
+    background-image: url(https://images.unsplash.com/photo-1494253109108-2e30c049369b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 49%;
+}
+
+#textc4{
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+    padding: 20px 50px;
+    position: relative;
+    text-align: left;
+}
+#textc4 h3{
+    margin-bottom: 10px;
+}
+#bottombox{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: #000;
+    bottom: 0%;
+    right: 0%;
+    color: #fff;
+    
+    
+}
+
+#bottombox i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
